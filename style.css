@@ -1,1 +1,54 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f0e6;
+  color: #222;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #3e2723;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.realm {
+  background: #fff8e1;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.dual-view {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tibetan, .jungian {
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.tibetan {
+  background: #e1f5fe;
+}
+
+.jungian {
+  background: #ede7f6;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #3e2723;
+  color: white;
+}
 
